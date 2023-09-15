@@ -1,0 +1,202 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+     font-family: 'PT Serif', serif;
+}
+*{
+    @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;
+}
+
+
+/* Start header css */
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 99999;
+}
+.logo
+{
+    text-decoration: none;
+    font-size:1.8em;
+    font-weight: 800;
+    margin-left: 70px;
+    padding: 10px;
+    color: aliceblue;
+}
+.navigation a{
+    text-decoration: none;
+    font-size:1.2em;
+    font-weight: 500;
+    margin-right : 70px;
+    padding: 10px;
+    color: aliceblue;
+}
+.navigation a:hover
+{
+    color: brown;
+}
+/* End header css */ 
+.one
+{ 
+    padding: 100px 200px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.main
+{
+    width: 100%;
+    min-height:auto;
+    margin-top: 150px;
+}
+.one .main h1
+{
+    font-size: 2.5em;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    margin: 30px 0;
+}
+.one .main h3
+{
+    font-size: 1.7em;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin: 30px 0;
+}
+.one .main .btn1
+{
+    font-size: 1.5em;
+    display: inline-block;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    transition: .7s ease;
+    
+}
+.btn1:hover
+{ 
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+.imge
+{
+    width: 500px;
+    height: auto;
+    margin-top: 95px;
+   
+}
+
+img
+{
+    max-width: 100%;
+    border-radius: 5px;
+}
+.title
+{
+    justify-content: center;
+    display: flex;
+    font-size: 2em;
+    font-weight: 900;
+}
+.content
+{
+    display: inline-block;
+   flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: center;
+    padding-left:40px ;
+}
+.card{
+    width: 350px;
+    box-shadow: 0 5px 25px rgb(31 31 31);
+    margin: 20px;
+    transition: .7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.btn2
+{
+    font-size: 1.5em;
+    display: inline-block;
+    font-weight: 700;
+    
+    background-color:rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    transition: .7s ease;
+}
+
+.btn2:hover
+{ 
+    background-color: rgb(255, 133, 133);
+    transform: scale(1.1);
+}
+.content .btn2 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.icon
+{
+    background-color:transparent;
+    width: 500px;
+    height: 100px;
+}
+.contact .title
+{
+    justify-content: center;
+    display: flex;
+    font-size: 2em;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.foto
+{
+    width: 325px;
+    height: auto;
+    margin-top: 95px;
+   
+}
+
+.foto img
+{
+    max-width: 100%;
+    border-radius: 165px;
+    
+}
+.logoo
+{
+    display:-webkit-inline-box;
+    margin-left: 50px;
+    
+    
+}
+.lll{
+    width: 50px;
+    margin: 15px;
+}
+.lll:hover
+{
+    /*background-color: rgb(217, 217, 217);*/
+    transform: scale(1.1);
+}
